@@ -3,7 +3,7 @@ collection of skripts for my chart-analysis on muchodata.wordpress.com
 
 the following skripts are available
 
-1.  - pulls the names and artists of the top 100 songs from the wiki pages and stores them locally
+1.  pulling_lyrics.py pulls the names and artists of the top 100 songs from the wiki pages and stores them locally
 2.  not available: the crawler, that takes each of theses songs and gets the lyrics from one of two lyrics websites
 3.  ngrams.py that creates ngrams from the lyrics separate for each year and song
 4.  analysis4.py that creates a matrix with rows= years from 1956 to 2014, cols=a set of interestion words, cells=number of songs of that year, that used this specific word at least once (matrix used in ui.R and server.R)
