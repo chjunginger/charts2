@@ -19,20 +19,7 @@ total=sum(thirdlevel$V2)
 colorpalet<-colorRampPalette(c("aquamarine3","darkgoldenrod", "coral"))(total)
 
 
-total=100
-rRNA=5 # mapped to nuclear rRNA regions
-mtRNA=7  # mapped to mitochondria genome
-# for the rest of above, then we divide into different category, like http://www.biomedcentral.com/1741-7007/8/149 did.
-intergenic=48 
-introns=12
-exons=30
-upstream=3
-downstream=6
-not_near_genes=40
 
-rest=total-rRNA-mtRNA
-genic=rest-intergenic
-introns_and_exons=introns+exons-genic
 
 # parameter for pie chart
 iniR=0.15 # initial radius
