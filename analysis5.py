@@ -1,5 +1,6 @@
 __author__ = 'christianjunginger'
 #produces a matrix used in the shiny app
+#to be improved and cleaned up :)
 import numpy as np
 import pandas as pd
 import json
