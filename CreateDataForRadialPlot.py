@@ -1,5 +1,5 @@
 __author__ = 'christianjunginger'
-#produces a matrix used in the shiny app
+#produces a matrix used for the radialPlots (I love...)
 #to be improved and cleaned up :)
 import numpy as np
 import pandas as pd
