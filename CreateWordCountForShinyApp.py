@@ -1,5 +1,6 @@
 __author__ = 'christianjunginger'
-#produces a matrix used in the shiny app
+#produces a matrix used in the shiny app. It contains word count for specific words over all top100 lyrics through the years
+
 import numpy as np
 import pandas as pd
 import re
